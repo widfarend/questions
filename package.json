@@ -6,8 +6,15 @@
   "scripts": {
     "q1": "node tokbox-question1.js",
     "q2": "node tokbox-question2.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "q3": "node tokbox-question3.js",
+    "q4": "node tokbox-question4.js",
+    "q5": "node tokbox-question5.js",
+    "q6": "node tokbox-question6.js",
+    "test": "jasmine"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.8.0"
+  }
 }

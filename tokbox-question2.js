@@ -11,6 +11,10 @@ EventHandler.prototype.trigger = function(type) {
 };
 
 EventHandler.prototype.on = function(type, handler) {
+    if(typeof(handler) !== 'function') {
+        throw new Error('Handler is not a function');
+    }
+
     if(!this.handlers[type]) {
         this.handlers[type] = [];
     }
@@ -32,6 +36,10 @@ MyCustomWidget.prototype = EventHandler.prototype;
 //     }
 //
 //     on (type, handler) {
+//         if(typeof(handler) !== 'function') {
+//             throw new Error('Handler is not a function');
+//         }
+//
 //         if(!this.handlers[type]) {
 //             this.handlers[type] = [];
 //         }
