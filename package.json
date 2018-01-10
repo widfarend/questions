@@ -1,0 +1,13 @@
+{
+  "name": "tokbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tokbox-questions.js",
+  "scripts": {
+    "q1": "node tokbox-question1.js",
+    "q2": "node tokbox-question2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
