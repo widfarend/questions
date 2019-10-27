@@ -77,7 +77,7 @@ obj1.trigger('foo');
 let obj2 = new AnotherCustomWidget();
 
 obj2.on('bar', function() {
-    // do foo
+    // do bar
     console.log('bar');
 });
 
